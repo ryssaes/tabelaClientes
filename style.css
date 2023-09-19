@@ -52,7 +52,6 @@ td > img {
     height: 30px;
     margin-right: .5rem;
     border-radius: 50%;
-
     vertical-align: middle;
 }
 
@@ -81,4 +80,4 @@ thead th{
 
 .table_body:hover::-webkit-scrollbar-thumb{
     visibility: visible;
-}
+} 
