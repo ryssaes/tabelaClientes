@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #D9AE61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #573D1C;
+}
+
+main.table {
+    width: 85vw;
+    height: 90vh;
+    background-color: #D1462F;
+    box-shadow: 0 0.5rem 0.7rem #fff4;
+    border-radius: 0.7rem;
+    overflow: hidden;
+}
+
+.table_header {
+    width: 100%;
+    height: 10%;
+    background-color: blanchedalmond;
+    padding: .8rem 1rem;
+    font-family: 'Inclusive Sans', sans-serif; 
+}
+
+.table_body{
+    width: 95%;
+    max-height: calc(90% - .8rem);
+    background-color: #fffb;
+    margin: .8rem auto;
+    border-radius: .6rem;
+    overflow: auto;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+table{
+    width: 100%;
+}
+
+td > img {
+    width: 30px;
+    height: 30px;
+    margin-right: .5rem;
+    border-radius: 50%;
+
+    vertical-align: middle;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+thead th{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+}
+
+.table_body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.table_body::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+
+.table_body:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
