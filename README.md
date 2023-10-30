@@ -6,7 +6,7 @@
 Este é um projeto de exemplo responsivo, desenvolvido para demonstrar um layout que se adapta a diferentes tamanhos de tela.
 
 <p align="center">
-  <img src="file:///C:/Users/ryssa/OneDrive/Imagens/Capturas%20de%20tela/Captura%20de%20tela%202023-10-30%20160606.png" alt="Imagem do Projeto">
+  <img src="https://github.com/ryssaes/tabela_Clientes/assets/132323833/afdf5e8e-494d-4cbc-af1b-39a737bf0266" alt="Imagem do Projeto">
 </p>
 
 
